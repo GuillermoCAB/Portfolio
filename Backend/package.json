@@ -1,0 +1,9 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "Backend of portfolio site",
+  "main": "index.js",
+  "author": "Guillermo Benitez",
+  "license": "GB",
+  "private": false
+}
