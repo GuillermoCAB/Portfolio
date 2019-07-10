@@ -1,0 +1,12 @@
+{
+  "name": "Frontend",
+  "version": "1.0.0",
+  "description": "Frontend do meu site de portfolios",
+  "main": "index.js",
+  "author": "Guillermo Benitez",
+  "license": "GB",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
