@@ -23,7 +23,8 @@ export default class Main extends Component {
         </header>
         
         <section className="slideControl">
-            <a  href="/AboutMe" ><button className="controller"></button></a>
+            <div className="content"></div>
+            <a  href="/AboutMe" ></a>
         </section>
 
         <section className="footer">

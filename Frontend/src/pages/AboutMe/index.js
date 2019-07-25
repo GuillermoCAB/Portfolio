@@ -21,8 +21,9 @@ export default class AboutMe extends Component {
             </div>
         </header>
         
-        <section className="slideControl">
-            <button className="controller">></button>
+        <section className="slideControl">            
+            <div className="content" id="style-scroll"><img src={ require('../../assets/CV Full Stack Gui Benitez.jpg') } /></div>
+            <a  href="/Portfolio" ></a>
         </section>
 
         <section className="footer">

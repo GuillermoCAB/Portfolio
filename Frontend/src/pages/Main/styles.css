@@ -13,12 +13,12 @@ header .anchors {
     padding: 2px 2px;    
 }
 
-header .anchors ul {
+header.anchors ul {
     display: flex;
     list-style-type: none;
 }
 
-header .anchors ul li {
+header.anchors ul li {
     margin: 0 6px;
     padding: 0 0;
     color: #fff;    
@@ -27,7 +27,7 @@ header .anchors ul li {
     font-size: 20px;
 }
 
-header .anchors ul li:hover {
+header.anchors ul li:hover {
     font-size: 22px;
     cursor:pointer;
 
@@ -49,10 +49,16 @@ section .slideControl {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 70%;
+    height: 84%;
 }
 
-button.controller {
+section.slideControl .content {
+    width: 90%;
+    height: 60%;   
+    margin: 7% 1% 0px 8%;
+}
+
+section .slideControl a {
     height: 60%;
     width: 10%;
     margin: 7% 3% 0px;
@@ -65,7 +71,7 @@ button.controller {
     opacity: 0.3;
 }
 
-button.controller:hover {
+section .slideControl a:hover {
     opacity: 1;
     cursor: pointer;
 }
@@ -75,14 +81,14 @@ button.controller:hover {
 /* Footer */
 section.footer {
     width: 100%;
-    height: 24%;
+    height: 10%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
 section.footer img {
-    height: 15%;
+    height: 45%;
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
     filter: invert(100%);
     margin: 0.4% 0.8%;
